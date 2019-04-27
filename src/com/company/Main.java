@@ -6,8 +6,6 @@ public class Main {
 
 
 
-        Exam04 test = new Exam04();
-
 
     }
 }

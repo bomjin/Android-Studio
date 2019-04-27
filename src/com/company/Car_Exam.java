@@ -7,6 +7,7 @@ public class Car_Exam {
            Car myCar1 = new Car("빨강",0);
            Car myCar2 = new Car("파랑",0);
            Car myCar3 = new Car("초록",0);
+           Automobile auto = new Automobile();
           // Car myCar4 = new Car( "노", 0);
 
 
@@ -39,12 +40,16 @@ public class Car_Exam {
         myCar1.upSpeed(250);
         System.out.println("자동차3의 색상은" + myCar3.getColor()+"이며 속도는"+myCar3.getSpeed()+"km입니다." );
 
+        auto.upSpeed(250);
 
 
         System.out.println("생산된 차의 대수(정적필드) ==>"+Car.carCount);
         System.out.println("생산된 차의 대수(정적 메소드) ==>"+Car.currentCarCount());
         System.out.println("차의 최고 제한 속도 ==>"+ Car.MAXSPEED);
+        System.out.println("PI의 값 ==>"+Math.PI);
+        System.out.println("3의 5제곱 ==>"+Math.pow(3,5));
 
+        System.out.println("승용차의 속도는"+ auto.getSpeed()+"km입니다.");
     }
 
 
