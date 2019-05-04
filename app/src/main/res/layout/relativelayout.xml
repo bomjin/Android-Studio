@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="113dp"
+        android:layout_height="43dp"
+        android:text="전화번호"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="261dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="01025370635"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="54dp" />
+</android.support.constraint.ConstraintLayout>
