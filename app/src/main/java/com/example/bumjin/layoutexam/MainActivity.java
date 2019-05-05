@@ -13,7 +13,7 @@ import android.widget.Toast;
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
-
+// 계산기
 
     EditText edit1, edit2;
     Button btnAdd, btnSub, btnMui, btnDiv;
