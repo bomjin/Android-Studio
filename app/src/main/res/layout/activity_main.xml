@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Chronometer
+            android:id="@+id/chronometer1"
+            android:format="예약에 걸린 시간 %s"
+            android:gravity="center"
+            android:textsize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/butStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="예약 시작" />
+    </LinearLayout>
+
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <RadioButton
+            android:id="@+id/radioCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="날짜 설정(캘린더뷰)" />
+
+        <RadioButton
+            android:id="@+id/radioTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="시간 설정" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_weight="1dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+
+        <CalendarView
+            android:id="@+id/calendarView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </CalendarView>
+
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+
+        <Button
+            android:id="@+id/butEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="예약완료" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1dp"
+            android:layout_height="match_parent"
+            android:text="년" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_weight="1dp"
+            android:layout_height="match_parent"
+            android:text="년" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_weight="1dp"
+            android:layout_height="match_parent"
+            android:text="일" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_weight="1dp"
+            android:layout_height="match_parent"
+            android:text="시" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_weight="1dp"
+            android:layout_height="match_parent"
+            android:text="분" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_weight="1dp"
+            android:layout_height="match_parent"
+            android:text="예약됨" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_weight="1dp"
+            android:layout_height="match_parent"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_weight="1dp"
+            android:layout_height="match_parent"
+            android:text="TextView" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
