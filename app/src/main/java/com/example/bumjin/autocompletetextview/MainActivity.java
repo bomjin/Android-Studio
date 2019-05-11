@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         MultiAutoCompleteTextView multi = (MultiAutoCompleteTextView) findViewById(R.id.multiAutoCompleteTextView1);
         MultiAutoCompleteTextView.CommaTokenizer token = new MultiAutoCompleteTextView.CommaTokenizer();
-        multi.setTokenizer(token);
+        multi.setTokenizer(token); //쉼표를 구분
         multi.setAdapter(adapter);
 
     }
