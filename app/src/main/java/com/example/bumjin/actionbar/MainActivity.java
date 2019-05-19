@@ -22,8 +22,8 @@ public abstract class MainActivity extends Activity implements ActionBar. // imp
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ActionBar bar = getActionBar(); //액셔바 가져오기
-        bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS); //액션바의 모드
+        ActionBar bar = getActionBar(); //액바 가져오기
+        bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS); //액션바의 모드(NavigationMo
 
         tabSong = bar.newTab(); //바의 텝을 tabSong 정의
         tabSong.setText("음악별");
